@@ -16,6 +16,7 @@ o observado para as classes individualmente é que o modelo "chuta" para as clas
 
 - ADICIONANDO PESO AS CLASSES:
 
-MICRO recall: 0.7232, precision: 0.4329, f1: 0.5416
+MICRO recall: 0.7232, precision: 0.4329, f1: 0.5416<br>
 MACRO recall: 0.6047, precision: 0.3711, f1: 0.4571
+
 
