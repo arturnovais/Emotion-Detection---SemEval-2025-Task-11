@@ -6,6 +6,7 @@ Este repositório foi criado para participar da Task 11 do SemEval 2025, que abo
 Executando a baseline em português na track A temos os seguintes resultados:
 
 - SEM ADICIONAR PESO NAS CLASSES
+  
 MICRO recall: 0.358, precision: 0.5415, f1: 0.431<br>
 MACRO recall: 0.2, precision: 0.1083, f1: 0.1405
 
