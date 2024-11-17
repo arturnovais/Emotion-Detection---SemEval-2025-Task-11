@@ -6,10 +6,10 @@ Este repositório foi criado para participar da Task 11 do SemEval 2025, que abo
 Executando a baseline em português na track A temos os seguintes resultados:
 
 - SEM ADICIONAR PESO NAS CLASSES
-MICRO recall: 0.358, precision: 0.5415, f1: 0.431
+MICRO recall: 0.358, precision: 0.5415, f1: 0.431<br>
 MACRO recall: 0.2, precision: 0.1083, f1: 0.1405
 
-Micro: Calcula as métricas considerando todas as instâncias igualmente.
+Micro: Calcula as métricas considerando todas as instâncias igualmente.<br>
 Macro: Calcula as métricas para cada classe individualmente e depois faz a média.
 
 o observado para as classes individualmente é que o modelo "chuta" para as classes menos frequentes no dataset
