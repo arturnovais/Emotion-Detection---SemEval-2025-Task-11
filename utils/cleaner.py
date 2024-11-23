@@ -11,6 +11,15 @@ class Cleaner():
         laugh_pattern = r'\b[kK]{2,}\b'
         return re.sub(laugh_pattern, laugh_token, text)
     
+    
+    def aplly_abbreviations(self, text):
+        for abbr, full_form in self.abbreviations.items():
+            text = re.sub(r'\b' + re.escape(abbr) + r'\b', full_form, text)
+        return text
+    
 
     def clean_text(self, text):
-        return self.clean_laught(text)
+        text = self.apply_abbreviations(text)
+        text = self.clean_laught(text)
+        
+        return text
